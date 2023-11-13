@@ -1,0 +1,174 @@
+/* yin.css */
+
+/* Add styles for the image container */
+.image-container {
+    float: left; /* Align the image container to the right */
+    margin-right: 20px; /* Add space on the left side */
+}
+
+/* Add styles for the oval image and shadow */
+.image-container img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 100px 100px ; /* Use specific values for horizontal and vertical radii */
+
+    box-shadow: 0 5px 8px rgba(27, 15, 15, 0.1); /* Add a subtle shadow */
+    transition: transform 0.9s ease; /* Add a smooth transition for the transform property */
+}
+
+/* Add a hover effect for the image */
+.image-container img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(175, 181, 217, 0.888);
+}
+  
+body {
+    margin: 50px;
+    font-family: 'Lato', sans-serif; /* Use the desired font */
+}
+
+header {
+    padding: 60px;
+    text-align: center; /* Center the text in the header */
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* Rest of your existing styles */
+nav a:hover {
+    color: #61dafb;
+}
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: right
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 11);
+    transition: color 0.3s ease;
+  }
+
+
+nav {
+    display: inline-block; /* Display as an inline block to center it */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px; /* Adjust the spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px;
+}
+
+/* Responsive styles for smaller screens */
+
+/* General styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    color: #110b0b;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #070303;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.hero {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Update the CSS to center the text */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(49, 28, 140);
+}
+.hero h1, .hero h2, .hero h3 {
+    margin: 10px; /* Adjust the margin as needed */
+    position: relative;
+    height: 100px; /* Adjust the height as needed */
+    color: rgb(53, 53, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 4.5em; /* Adjust the font size as needed */
+}
+
+.hero h2 {
+    font-size: 4em;
+}
+
+.hero h3 {
+    font-size: 4.5em;
+}

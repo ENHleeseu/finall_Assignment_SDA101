@@ -1,0 +1,160 @@
+/* Rest of your existing styles */
+nav a:hover {
+    color: #61dafb;
+}
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: right
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 11);
+    transition: color 0.3s ease;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(175, 181, 217, 0.888);
+}
+  
+body {
+    margin: 50px;
+    font-family: 'Lato', sans-serif; /* Use the desired font */
+}
+
+header {
+    padding: 60px;
+    text-align: center; /* Center the text in the header */
+}
+
+nav {
+    display: inline-block; /* Display as an inline block to center it */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px; /* Adjust the spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 2, 2);
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #c6c1ee;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(185, 191, 230, 0.888);   /* Styles for the upper part (you may keep your existing styles here) */
+    padding: 100px;
+}
+
+.content {
+    background-color: #0c0a0a; /* Set the background color for the lower part */
+    padding: 200px;
+    flex-grow: 100px; /* This allows the lower part to take up remaining space */
+}
+
+
+#contact-section {
+    margin-top: 20px;
+}
+
+#contact-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#contact-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+#contact-section a {
+    color: #f0f4f8; /* Link color, you can customize this */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 1500px; /* Adjust as needed for smaller screens */
+    }
+
+    #contact-section {
+        padding: 20px;
+    }
+
+    .social-links {
+        list-style: none;
+        padding: 20px;
+        margin: 10px 10px;
+    }
+
+    .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+    padding: 200px;
+    box-sizing: border-box;
+}

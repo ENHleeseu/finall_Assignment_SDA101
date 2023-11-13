@@ -1,0 +1,182 @@
+
+/* Add styles for the image container */
+.image-container {
+    float: left; /* Align the image container to the right */
+    margin-right: 20px; /* Add space on the left side */
+}
+
+/* Add styles for the oval image and shadow */
+.image-container img {
+    width: 500px; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 100px 100px ; /* Use specific values for horizontal and vertical radii */
+    transition: transform 0.9s ease; /* Add a smooth transition for the transform property */
+    box-shadow: 0 5px 8px rgba(27, 15, 15, 0.1); /* Add a subtle shadow */
+    
+}
+/* Add a hover effect for the image */
+.image-container img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+.image-container img {
+    border-radius: 50%; /* Keep the circular shape on smaller screens */
+}
+
+/* Update the CSS to center the text */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the top right */
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+    color: rgb(49, 28, 140);
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.hero p {
+    margin: 10px;
+    position: relative;
+    color: rgb(7, 7, 9);
+    font-size: 2em;
+}
+/* Rest of your existing styles */
+nav a:hover {
+    color: #61dafb;
+}
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: right
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 11);
+    transition: color 0.3s ease;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(175, 181, 217, 0.888);
+}
+  
+body {
+    margin: 50px;
+    font-family: 'Lato', sans-serif; /* Use the desired font */
+}
+
+header {
+    padding: 60px;
+    text-align: center; /* Center the text in the header */
+}
+
+nav {
+    display: inline-block; /* Display as an inline block to center it */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px; /* Adjust the spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px;
+}
+.rectangle-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 500px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #010203; /* Adjust the color as needed */
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 40px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.rectangle-box span {
+    color: rgb(236, 233, 233); /* Adjust the text color as needed */
+    font-size: 1.3em; /* Adjust the font size as needed */
+    text-align: start;
+    margin: auto;
+    padding-inline: 3px;
+}
+
+/* Your existing styles */
+
+.rectangle-box {
+    background-color: #0f0707;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 2.5s ease-in-out forwards; /* Apply the fadeIn animation */
+}
+
+/* Keyframes for fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Slide up while fading in */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.hero {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rectangle box styles */
+
+.rectangle-box {
+    background-color: #0b0d0f;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+/* Responsive rectangle box styles */
+
+@media screen and (max-width: 600px) {
+    .rectangle-box {
+        padding: 10px;
+        margin: 10px;
+    }
+}

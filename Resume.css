@@ -1,0 +1,97 @@
+/* Rest of your existing styles */
+nav a:hover {
+    color: #61dafb;
+}
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: right
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 11);
+    transition: color 0.3s ease;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(175, 181, 217, 0.888);
+}
+  
+body {
+    margin: 50px;
+    font-family: 'Lato', sans-serif; /* Use the desired font */
+}
+
+
+header {
+    padding: 60px;
+    text-align: center; /* Center the text in the header */
+}
+
+nav {
+    display: inline-block; /* Display as an inline block to center it */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px; /* Adjust the spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+
+.hero h1, .hero h2, .hero h3 {
+    margin: 50px; /* Adjust the margin as needed */
+    padding: 2px;
+    position: relative;
+    height: 60px; /* Adjust the height as needed */
+    color: rgb(5, 5, 7);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+
+.hero h3 {
+    font-size: 2em;
+}
+.hero p {
+    font-size: 22px;
+    color: rgb(20, 20, 75);
+    margin: 50px;
+    padding: 2px;
+}

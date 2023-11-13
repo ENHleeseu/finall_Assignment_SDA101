@@ -1,0 +1,22 @@
+/* animation.css */
+
+.hero h1,
+.hero h2,
+.hero h3 {
+    margin: 10px;
+    position: relative;
+    height: 100px;
+    color: rgb(53, 53, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+}
+
+/* Add a hover effect for the headings */
+.hero h1:hover,
+.hero h2:hover,
+.hero h3:hover {
+    transform: scale(1.1); /* Scale the heading on hover */
+}

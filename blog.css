@@ -1,0 +1,169 @@
+/* Rest of your existing styles */
+nav a:hover {
+    color: #61dafb;
+}
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: right
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 11);
+    transition: color 0.3s ease;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(175, 181, 217, 0.888);
+}
+  
+body {
+    margin: 50px;
+    font-family: 'Lato', sans-serif; /* Use the desired font */
+}
+
+header {
+    padding: 60px;
+    text-align: center; /* Center the text in the header */
+}
+
+nav {
+    display: inline-block; /* Display as an inline block to center it */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px; /* Adjust the spacing between menu items */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+.hero p {
+    font-size: 30px;
+    color: rgb(45, 45, 131);
+    margin: 40px;
+    padding: 2px;
+}
+
+.rectangle-box {
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+    width: 500px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #010203; /* Adjust the color as needed */
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 90px;
+    margin-bottom: 20px;
+    margin-right: 900px;
+}
+
+.rectangle-box span {
+    text-align: center;
+}
+
+.rectangle-box span h1 {
+    color: aliceblue;
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.rectangle-box span p {
+    color: aliceblue;
+    font-size: 20px;}
+
+/* Your existing styles */
+
+.rectangle-box {
+    background-color: #0f0707;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 2.5s ease-in-out forwards; /* Apply the fadeIn animation */
+}
+
+/* Keyframes for fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Slide up while fading in */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        text-align: left;
+    }
+
+    .rectangle-box {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+.rectangle-box {
+    background-color: #0a0c0e;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Responsive rectangle box styles */
+
+@media screen and (max-width: 600px) {
+    .rectangle-box {
+        padding: 10px;
+        margin: 10px;
+    }
+}
